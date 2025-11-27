@@ -5,13 +5,13 @@
  
  ✨ Features
  This calculator supports the following standard arithmetic operations:
- Addition ( + ): Sums two numbers.
- Subtraction (- ): Finds the difference between two numbers.
- Multiplication ( * ): Calculates the product of two numbers.
- Division ( / ): Divides one number by another.
- Clear ( C or AC ): Resets the input and current calculation.
- Decimal Support ( . ): Allows for floating-point calculations.
- percentage (%): calculation for the percentage.
+ 1. Addition ( + ): Sums two numbers.
+ 2. Subtraction (- ): Finds the difference between two numbers.
+ 3. Multiplication ( * ): Calculates the product of two numbers.
+ 4. Division ( / ): Divides one number by another.
+ 5. Clear ( C or AC ): Resets the input and current calculation.
+ 6. Decimal Support ( . ): Allows for floating-point calculations.
+ 7. percentage (%): calculation for the percentage.
  
  🚀 How to Use
  The calculator is straightforward to operate:
