@@ -20,7 +20,7 @@
  3. Second Input: Enter the second number.
  4. Result: Click or press the equals sign ( = ) to display the result.
  5. Reset: Use the Clear button ( C or AC ) to start a new calculation.
-    
+
  Example
  To calculate "15 plus 7":
  1. Enter 15
