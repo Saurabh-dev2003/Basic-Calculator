@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background:linear-gradient(45deg, rgb(24, 17, 17),rgb(40, 65, 91));
+}
+
+.calculator{
+    border: 1px solid rgb(114, 113, 113);
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.8);
+
+}
+
+input{
+    width: 320px;
+    border: none;
+    background: transparent;
+    padding: 24px;
+    margin: 10px;
+    box-shadow: 0px 3px 15px rgba(29, 47, 66, 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: white;
+}
+
+input::placeholder{
+    color: white;
+}
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px ;
+    border-radius: 50%;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.8);
+    cursor: pointer;
+}
+button:active{
+    background-color: rgb(25, 30, 39);
+}
+.equle-btn{
+    background-color: rgb(250, 172, 3);
+}
+.equle-btn:active{
+    background-color: rgb(250, 172, 3);
+}
+.operator{
+    color: rgb(38, 128, 0);
+}
+.icon-only-btn i{
+    color: rgb(38, 128, 0);
+}
+
+@media (max-width: 650px) {
+    .calculator{
+        margin: 0 25px;
+        padding: 10px;
+
+    }
+
+    input{
+        width: 270px;
+        padding: 15px;
+        font-size: 35px;
+    }
+    div{
+        
+        text-align: center;
+    }
+    button{
+        width: 45px;
+        height: 45px;
+      
+    }
+    button:active{
+    background-color: rgb(25, 30, 39);
+}
+}
