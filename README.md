@@ -1,4 +1,5 @@
-Basic Calculator Project
+ Basic Calculator Project
+ 
  A simple, functional calculator designed for basic arithmetic operations. This project serves as a
  foundational implementation of a calculator interface and logic.
  
